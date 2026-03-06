@@ -3,7 +3,7 @@
 This MonoGame project demonstrates a 2D scene-graph animation: a band of dogs made from hierarchical sprites (torso, head, arms, etc.) with attached instruments. Animations are driven by composed root matrices and local transforms to produce coordinated, looping movement.
 
 <p align="center">
-  <img src="snoopy_reunion.png" width="800">
+  <img src="snoopy_reunion.jpeg" width="800">
 </p>
 
 Quick features
