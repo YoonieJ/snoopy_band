@@ -29,16 +29,16 @@ If running from the command line, ensure the correct project is targeted and Mon
 - dotnet run --project path/to/game/project
 
 Controls / Interaction
-- ESC (or gamepad Back) — exit the application.
+- ESC (or gamepad Back): exit the application.
 - Current project is presentation-only; no additional interactive controls implemented.
 
 Project structure (high-level)
-- Game1.cs — setup, load assets, layout band members, main loop.
-- SceneNode.cs — scene graph node with local/world matrices and drawing.
-- Dog.cs — base dog class with hierarchical parts and composed root transform.
-- StringDog.cs, DrumDog.cs — concrete dog behaviors.
-- InstrumentBase.cs, StringInstrument.cs, DrumInstrument.cs — instruments attached to dogs.
-- BandMember.cs — binds a Dog and an Instrument and updates/draws them.
+- Game1.cs: setup, load assets, layout band members, main loop.
+- SceneNode.cs: scene graph node with local/world matrices and drawing.
+- Dog.cs: base dog class with hierarchical parts and composed root transform.
+- StringDog.cs, DrumDog.cs: concrete dog behaviors.
+- InstrumentBase.cs, StringInstrument.cs, DrumInstrument.cs: instruments attached to dogs.
+- BandMember.cs: binds a Dog and an Instrument and updates/draws them.
 
 Description:
 - 2D animation in Game class (MonoGame): Game1 builds and updates the scene.
@@ -59,3 +59,4 @@ Notes and known issues
 
 License
 - All images are created by Yoon Jang
+- Free Source audio used
